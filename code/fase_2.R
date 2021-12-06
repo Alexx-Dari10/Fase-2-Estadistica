@@ -192,6 +192,11 @@ biplot(acp)
 # estandarizando
 data.std <- scale(data, scale = TRUE)
 
+# estandarizados vs sin estandarizar
+plot(data$LongPosition, data$PrismCoeff, main = "Datos sin estandarizar",
+          xlab = "LongPosition", ylab = "PrismCoeff")
+plot(data.std, main = "Datos estandarizados")
+
 # matriz de distancia con la distancia euclidiana
 d <- dist(data.std, method = "euclidean")
 
@@ -199,20 +204,33 @@ d <- dist(data.std, method = "euclidean")
 fit <- hclust(d, method = "complete")
 d2 <- as.dendrogram(fit)
 
-# graficando
+# graficando (2 clusers)
 plot(fit)
-rect.hclust(fit, k = 5, border = "red")
+rect.hclust(fit, k = 2, border = "red")
+
+# graficando (4 clusters)
+plot(fit)
+rect.hclust(fit, k = 4, border = "red")
+
+
+# por las medias
+fit <- hclust(d, method = "average")
+d2 <- as.dendrogram(fit)
+
+# graficando (3 clusters)
+plot(fit)
+rect.hclust(fit, k = 3, border = "red")
 
 
 ### K-means ###
 
-fit.k1 <- kmeans(data.std, 5)
+fit.k1 <- kmeans(data.std, 4)
 fit.k1
 ## % de similitud de cada cluster bajo
 
-fit.k2 <- kmeans(data.std, 10)
+fit.k2 <- kmeans(data.std, 8)
 fit.k2
-# 66.3 % no es lo ideal pero esta bien
+## 60 % no es lo ideal pero esta bien
 
 # analisis grafico
 pairs(data.std, col = fit.k2$cluster)
