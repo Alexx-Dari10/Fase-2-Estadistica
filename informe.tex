@@ -100,7 +100,7 @@ Si analizamos la matriz de correlaci\'on obtenemos: \\
 
 \includegraphics[scale = 0.4]{images/pic_02.png} \\
 
-Al analizar la matriz es f\'acil darse cuenta de que las variables coeficiente prism\'atico y resistencia residual no est\'an correlacionadas, de hecho, ninguna de las variables est\'an correlacionadas entre s\'i, a excepci\'on del n\'umero de Froude y resistenia residual. Como en el caso de este modelo en particular la variable dependiente \textit{ResiduaryResistance} no est\'a correlacionada con la variable independente \textit{PrismCoeff}, debemos eliminarla. Por lo tanto tenemos un nuevo modelo sin la variable \textit{PrismCoeff} que, adem\'as hab\'iamos visto, no era significativa.\\
+Al analizar la matriz es f\'acil darse cuenta de que las variables coeficiente prism\'atico y resistencia residual no est\'an correlacionadas, de hecho, ninguna de las variables est\'an correlacionadas entre s\'i, a excepci\'on del n\'umero de Froude y resistenia residual. Como, en el caso de este modelo en particular, la variable dependiente \textit{ResiduaryResistance} no est\'a correlacionada con la variable independente \textit{PrismCoeff}, debemos eliminarla. Por lo tanto tenemos un nuevo modelo sin la variable \textit{PrismCoeff} que, adem\'as hab\'iamos visto, no era significativa.\\
 
 Luego llegamos a un modelo que tiene a \textit{ResiduaryResistance} como variable dependiente y a \textit{FroudeNumber} como variable independiente. Los resultados obtenidos con este modelo son los siguientes:\\
 
@@ -112,7 +112,7 @@ $$\hat{ResiduaryResistance} = -24.484 + 121.668 * FroudeNumber$$
 
 Se observa que el coeficiente del intercepto es mucho menor que el coeficiente del n\'umero de Froude, por lo tanto podemos decir que la mayor parte de la resistencia residual de los barcos est\'a explicada a partir del n\'umero de Froude. El coeficiente del n\'umero de Froude es significativo al $0\%$ y el del intercepto tambi\'en es significativo al $0\%$. Analizando los valores de estos coeficientes, se puede afirmar que por cada aumento unitario en el n\'umero de Froude debemos esperar que la resistencia residual aumente en $121.668$. \\
 
-Pasando al an\'alisis de los residuos tenemos que el R-cuadrado ajustado es $0.66$, menor que $0.70$ por lo que podemos decir que  es un modelo bastante malo, no obstante, sigamos con el an\'alisis. El error est\'andar es $8.9$, no es tan peque\~no, no es lo ideal. El p-value del estad\'igrafo F, como se hab\'ia dicho, es menor que $0.05$, lo que quiere decir que existe al menos una variable significativamente diferente a cero en el modelo.\\
+Pasando al an\'alisis de los residuos tenemos que el R-cuadrado ajustado es $0.66$, menor que $0.70$, por lo que podemos decir que  es un modelo bastante malo, no obstante, sigamos con el an\'alisis. El error est\'andar es $8.9$, no es tan peque\~no, no es lo ideal. El p-value del estad\'igrafo F, como se hab\'ia dicho, es menor que $0.05$, lo que quiere decir que existe al menos una variable significativamente diferente a cero en el modelo.\\
 
 Veamos ahora si el modelo cumple los supuestos.\\
 Recordemos que los supuestos son:
@@ -121,7 +121,7 @@ Recordemos que los supuestos son:
 \item Los errores ($e_1,...,e_n$) son independientes.
 \item El valor esperado del error aleatorio $e_i$ es cero ($E(e_i) = 0$)
 \item La Varianza del error aleatorio es constante ($V(e_i) = \theta^2$). Homocedasticidad.
-\item Los errores adem\'as de ser independientes son id\'enticamente distribuidos y siguen distribución normal con media cero y varianza constante ($e_i ~ N(0, \theta^2)$)
+\item Los errores adem\'as de ser independientes son id\'enticamente distribuidos y siguen distribuci\'on normal con media cero y varianza constante ($e_i ~ N(0, \theta^2)$)
 \item Las variables independientes del modelo no est\'an correlacionadas.
 \end{enumerate}
 
@@ -164,7 +164,8 @@ Se concluye que para estos datos no existe un modelo de regresi\'on lineal que s
 
 No podemos dejar de mencionar que, dado el an\'alisis de la matriz de correlaci\'on realizado en esta secci\'on, no es posible utilizar otra combinaci\'on de variables para realizar otro modelo de regresi\'on, ya que las variables no tienen correlaci\'on entre s\'i, a excepci\'on de las que se analizaron. El \'unico modelo que se podr\'ia hacer con estos datos fue el que analizamos anteriormente, ya que el resto de combinaciones de modelos posibles no cumple, a priori, el supuesto $1$.
 
-El an\'alisis de correlaci\'on tambi\'en se aborda de una forma mejor explicativa en la secci\'on X del presente informe.\\\\
+El an\'alisis de correlaci\'on tambi\'en se aborda de una forma mejor explicativa en la secci\'on V, subsecci\'on I del presente informe.\\\\
+
 
 
 
@@ -212,7 +213,7 @@ Luego necesitamos comparar las medias de los $14$ niveles del factor y las media
 
 Podemos observar que las medias de la resistencia residual de los coeficientes prism\'aticos son bastante cercanas, oscilando entre $2$ y $3$ aproximadamente, por lo que es posible que el coeficiente prism\'atico no tenga efecto sobre la resistencia residual de los veleros. 
 
-Por otro lado, el gr\'afico de la resistencia residual y el n\'umero de Froude muestra mucha diferencia en las medias, podemos apreciar que empieza en valores muy cercanos a $0$ y, a medida que el n\'umero de Froude aumenta, obtenemos valores de resistencia residual promedio de $50$. Por lo tanto, es muy probable que el n\'umero de Froude tenga efecto sobre la resistencia residual de los veleros.\\
+Por otro lado, el gr\'afico de la resistencia residual y el n\'umero de Froude muestra mucha diferencia en las medias, podemos apreciar que empieza en valores muy cercanos a $0$ y, a medida que el n\'umero de Froude aumenta, obtenemos valores de resistencia residual promedio hasta de $50$. Por lo tanto, es muy probable que el n\'umero de Froude tenga efecto sobre la resistencia residual de los veleros.\\
 
 \includegraphics[scale = 0.4]{images/pic_14.png} \\
 
@@ -254,11 +255,116 @@ Los puntos no forman una franja, parece ser no que tienen varianza constante. Ut
 
 Como el p-valor de esta prueba es menor que $0.05$ se rechaza la hip\'otesis nula por lo que el supuesto de Homocedasticidad no se cumple.\\\\
 
-De forma an\'aloga a como se desarroll\'o en esta secci\'on, se realizaron varios an\'alisis de ANOVA considerando otras variables, pero por desgracia ninguno result\'o v\'alido. Solo se refleja en este informe el realizado con las variables principales visto anterioremente.\\\\
+De forma an\'aloga a como se desarroll\'o en esta secci\'on, se realizaron varios an\'alisis de ANOVA considerando otras variables, pero por desgracia ninguno result\'o v\'alido. Solo se refleja en este informe el realizado con las variables principales definidas previamente, cuyo modelo analizamos en esta secci\'on.\\\\
+
 
 
 
 \section{Reducci\'on de dimensi\'on}
+Realizaremos en esta secci\'on varias t\'ecnicas de reducci\'on de dimensi\'on a nuestro set de datos, ya sea en cuanto la cantidad de variables como en el tama\~no de la muestra.\\
+
+
+\subsection{An\'alisis de componentes principales}
+El objetivo del ACP es reducir dimensi\'on agrupando variables en componentes principales incorrelacionadas entre s\'i. En el caso de nuestro set de datos, como ya vimos en la secci\'on II, tenemos 7 variables.
+
+Lo primero que debemos estudiar es la correlaci\'on de nuestra muestra. Para ello primero graficamos los datos para ver si existe alg\'un tipo de correlaci\'on entre ellos.\\
+
+\includegraphics[scale = 0.4]{images/pic_21.png} \\
+
+Son demasiadas variables para analizar de forma visual. Debemos acudir entonces a la matriz de correlaci\'on, analizada en la secci\'on III, pero esta vez trabajaremos con esta matriz en forma gr\'afica.\\
+
+\includegraphics[scale = 0.5]{images/pic_22.png} \\
+
+Como se puede apreciar no es una matriz altamente correlacionada, y solo tiene una marcada correlaci\'on el n\'umero de Froude y la resistencia residual, marcado con el s\'imbolo de $+$. 
+
+En este caso ya las variables son independientes por lo que este an\'alisis solo servir\'ia para reducir dimensi\'on. As\'i que podemos proseguir a realizar el ACP, obteniendo los siguientes resultados:\\
+
+\includegraphics[scale = 0.4]{images/pic_23.png} \\
+
+Ahora debemos escoger nuestras componentes principales. Seg\'un el criterio de Kaiser nos quedar\'iamos con las cuatro primeras componentes, explicando estas el $86\%$ de la muestra. Pero no hacemos mucho reduciendo a cuatro componentes dado que tenemos 7 variables. Por tanto, como el valor propio de la cuarta componente est\'a a solo $0.002$ por encima de $1$, y que las tres primeras componentes explican el $71\%$ de la muestra, nos quedaremos con PC1, PC2 y PC3.
+
+Podemos, adem\'as, ver las componentes de forma visual para ratificar nuestra decisi\'on. Si graficamos estas componentes obtenemos:\\
+
+\includegraphics[scale = 0.4]{images/pic_24.png} \\
+
+Se puede observar que a partir de la cuarta componente hay una ca\'ida m\'as pronunciada y que con las tres primeras se explica una buena parte, ser\'ia un $71\%$, que si bien no es lo ideal, no est\'a mal.
+
+Ahora analizamos la matriz de valores propios y as\'i sabremos qu\'e variable es importante para cada componente y en qu\'e medida.\\
+
+\includegraphics[scale = 0.5]{images/pic_25.png} \\
+
+Comencemos por la primera componente. Tomamos el mayor valor propio modularmente, $0.71$, y lo dividimos entre $2$, dando como resultado $0.36$. Luego todo valor propio cuyo m\'odulo est\'e por encima de $0.36$ en la columna de la PC1 nos dar\'a las variables que conforman esta componente. Por tanto, la interpretaci\'on ser\'ia que la primera componente est\'a caracterizada por barcos que tienen bajo n\'umero de Froude y baja resistencia residual, o sea, son yates que pueden ignorar casi por completo la resistencia por olas en su navegaci\'on. 
+
+Siguiendo el mismo an\'alisis para la segunda componente tenemos que el mayor valor abosluto de valores propios es $0.73$, dividido entre 2 ser\'ia $0.37$, por tanto, en esta componente los barcos tienen baja relaci\'on longitud - desplazamiento y tambi\'en una baja relaci\'on longitud - haz, o sea, son yates que est\'an hechos para "planear en el agua", es decir, alcanzan una gran velocidad. 
+
+En la tercera componente tenemos que el mayor valor propio modular es $0.75$, dividido entre 2 es $0.38$, entonces esta componente est\'a representada por veleros que tienen un alto coeficiente prism\'atico, una elevada relaci\'on longitud - desplazamiento y una elevada relaci\'on haz - tiro, por lo que son yates veleros que no est\'an dise\~nados para alcanzar una velocidad muy alta.\\
+
+Por \'ultimo, podemos ver un biplot del ACP.\\
+
+\includegraphics[scale = 0.3]{images/pic_26.png} \\
+
+Primero se puede ver que las variables que representan la PC1 son n\'umero de Froude y resistencia residual de forma negativa pues tienen un \'angulo obtuso. La PC2 tiene como variables a la relaci\'on longitud desplazamiento y la relaci\'on longitud - haz de forma negativa. Mientras m\'as larga sea la recta que define a una variable m\'as representada est\'a la variable en la componente y m\'as importante ser\'a dentro de la misma. Tambi\'en podemos observar algunos yates que est\'an cerca de cada componente.\\\\
+
+
+\subsection{Cl\'uster jer\'arquico}
+Entre las t\'ecnicas para la reducci\'on de dimensi\'on se encuentran las t\'ecnicas de clasificaci\'on, que tienen como objetivo agrupar individuos de grandes poblaciones para reducir la dimensi\'on de la muestra. 
+
+A partir de esta subsecci\'on nos centraremos en aplicar t\'ecnicas para reducir el tama\~no de la muestra.
+
+El primer paso independientemente del procedimiento a seguir ser\'a estandarizar los datos para evitar errores en la clasificaci\'on por cuestiones de variabilidad en las unidades de medidas. Para esto tipificaremos cada una de las 7 variables. Obteniendo
+$Z_i = \frac{X_i - \mu_i}{\sigma_i}$.
+
+Para estandarizar usamos la funci\'on de R \textbf{scale}, y como se observa a continuaci\'on los datos estandarizados tienen el mismo comportamiento que los que no fueron estandarizados, la diferencia est\'a en la escala de las mediciones que es similar.\\
+
+\includegraphics[scale = 0.4]{images/pic_27.png} \\
+\includegraphics[scale = 0.4]{images/pic_28.png} \\
+
+Una vez escaladas las mediciones construimos la matriz de distancias que ser\'a sim\'etrica, para la cual utilizamos la distancia euclidiana. Luego realizamos un cl\'uster jer\'arquico con el m\'etodo de ajuste completo y la matriz de distancias. Si graficamos el ajuste obtendremos el Dendograma del cl\'uster jer\'arquico.\\
+
+\includegraphics[scale = 0.5]{images/pic_29.png} \\
+
+A partir de este gr\'afico podemos determinar la cantidad de cl\'usters haciendo cortes horizontales a alturas determinadas. Por ejemplo si cortamos a altura mayor que $6$, obtendremos dos cl\'usters, como pudimos observar en la figura, uno que contiene a un peque\~no grupo de yates y otro que contiene al resto. Pero no tiene sentido, a pesar de que un peque\~no grupo de veleros se comporte de manera distinta, analizar el resto de los barcos como uno solo, pues si bajamos la altura vemos que ese gran cl\'uster se divide en cl\'usters m\'as peque\~nos. Tampoco tendr\'ia sentido realizar un an\'alisis por debajo de la altura $4$ pues tendr\'iamos muchos cl\'usters de elementos muy parecidos. En este caso decidimos quedarnos con $4$ cl\'usters como se muestra a continuaci\'on.\\
+
+\includegraphics[scale = 0.5]{images/pic_30.png} \\
+
+Por desgracia los cl\'usters son demasiado grandes y no quedan legibles los barcos que forman parte de cada uno. No obstante, podemos hacernos una idea de ese peque\~no grupo de yates que se comporta de manera distinta. Si analizamos los datos, nos percatamos de que existen algunos veleros que tienen una resistencia residual bastante alta y una posici\'on longitudinal muy baja, motivo por el cual se comportan de forma distinta a la mayor\'ia de los yates. Estos barcos podr\'ian formar parte del primer cl\'uster.
+
+Todas las t\'ecnicas de cl\'uster jer\'arquico no dan los mismos resultados, veamos que sucede si en vez de utilizar un ajuste completo ajustamos por las medias. En este caso los ajustes son las medidas de asociaci\'on entre las variables.\\
+
+\includegraphics[scale=0.5]{images/pic_31.png} \\
+
+Podemos notar que, a diferencia del ajuste completo, si hacemos un corte muy elevado obtenemos tres cl\'usters de yates que se comportan de manera diferente, dos relativamente peque\~nos y uno que contiene a la mayor\'ia de los yates.\\\\
+
+
+
+
+\subsection{K-means}
+Habiendo realizado la clasificaci\'on por el m\'etodo jer\'arquico, utilicemos ahora el algoritmo k-means. El problema m\'as grande al aplicar este algoritmo es que necesitamos tener una idea de cu\'antos cl\'usters tendremos, en este caso partiremos del n\'umero de cl\'usters encontrados en el algoritmo anterior. Es decir, comenzaremos con $4$ cl\'usters.\\
+
+\includegraphics[scale=0.3]{images/pic_32.png} \\
+
+Al aplicar la funci\'on k-means y comprobar su resultado obtenemos un vector de cl\'usters que nos dice en qu\'e clúster est\'a cada barco y cu\'antos elementos hay. En este caso tenemos $4$ cl\'usters con $26$, $158$, $65$ y $69$ barcos respectivamente. Notemos que sigue habiendo un cl\'uster con un peque\~no grupo de barcos que se comportan de forma distinta.
+
+Tambi\'en tenemos las medias de los elementos de cada variable por cada cl\'uster y, una de las informaciones m\'as importantes que podemos obtener, es la medida de similitud entre los elementos de cada cl\'uster, en este caso ser\'ia un $40.4\%$, muy malo. Debemos al menos duplicar la cantidad de cl\'uster para elevar un poco ese porcentaje.
+
+Repetimos el algoritmo esta vez con $8$ cl\'usters.\\
+
+\includegraphics[scale=0.3]{images/pic_33.png} \\
+
+Esta vez obtuvimos un porcentaje del $60\%$ que no est\'a mal. Y tampoco es exagerada la cantidad de cl\'usters, teniendo en cuenta que estamos trabajando una muestra de cardinalidad igual a $308$.
+
+Si graficamos el resultado de k-means obtendremos una matriz de gr\'aficos.\\
+
+\includegraphics[scale=0.5]{images/pic_34.png} \\
+
+La cual resulta imposible de analizar, por lo que si queremos analizar las relaciones de forma visual entre variables debemos analizarlas dos a dos, por ejemplo, resistencia residual y coeficiente prism\'atico.\\
+
+\includegraphics[scale=0.5]{images/pic_35.png} \\\\
+
+
+\subsection{\'Arboles de clasificaci\'on}
+
+\includegraphics[scale=0.4]{images/pic_36.png}
 
 \end{multicols}{2}
 \end{document}
