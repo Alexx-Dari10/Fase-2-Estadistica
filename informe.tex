@@ -44,7 +44,7 @@
 \textsc{\vspace{-2cm} Alejandro Campos, Darian Dominguez, Nelson Mendoza}\\[3.5cm]
 \normalsize Facultad de Matem\'atica y Computaci\'on \\
 \normalsize Universidad de la Habana \\
-\normalsize 2021 \\
+\normalsize 2021 \\[1cm]
 \vspace{-5mm}
 }
 \date{}
@@ -60,13 +60,14 @@
 \begin{center}
 \textbf{Resumen}
 \end{center}
-\noindent \textit{Resumen here}\\
+\noindent \textit{En la segunda fase del proyecto correspondiente a la asignatura de Estad\'istica se hace un estudio sobre los datos usados en la fase 1, en el que aplicaremos t\'ecnicas de regresi\'on lineal, ANOVA, y reducci\'on de dimensi\'on. Para ello se definen las variables pricipales que est\'an contenidas en el set de datos, sobre las que se realizaran las dos primeras t\'ecnicas. Adem\'as, se hace un an\'alisis de los supuestos de cada modelo a fin de investigar la validez de estos y se construyen gr\'aficas en cada t\'ecnica para analizar los resultados obtenidos de forma visual. El objetivo del proyecto es el an\'alisis de los datos usando las t\'ecnicas antes mencionadas. Con ayuda del software R y de R studio, se cre\'o la implementaci\'on que se puede encontrar en \texttt{code/fase\_2.R} de la cual nos auxiliaremos a lo largo de este informe.}\\[0.5cm]
 
 \begin{multicols}{2}
 
-\section{Introduci\'on}
-introduction here
+\section{Introducci\'on}
+La regresi\'on lineal o ajuste lineal es un modelo matem\'atico usado para aproximar la relaci\'on de dependencia entre una variable dependiente $Y$, y $m$ variables independientes $X_i$. El an\'alisis de la regresi\'on lineal consiste en encontrar la ecuaci\'on de la recta que mejor describe la relaci\'on entre las variables, siendo uno de los usos de esta ecuaci\'on hacer predicciones. El an\'alisis de la varianza (ANOVA) parte del concepto de regresi\'on lineal, cuya funcionalidad ampl\'ia. Es un procedimiento creado por Fisher en $1925$ para descomponer la variabilidad de un experimento en componentes independientes que puedan asignarse a causas distintas. As\'i, un an\'alisis de la varianza permite determinar si diferentes tratamientos muestran diferencias significativas en sus resultados o si, por el contrario, puede suponerse que sus medias poblacionales no difieren. Por lo que, a pesar de su nombre, es una t\'ecnica estad\'istica que permite la comparaci\'on de las medias de una caracter\'istica en varias poblaciones. Por \'ultimo, las t\'ecnicas de reducci\'on de dimensi\'on permiten, como su nombre lo indica, reducir el n\'umero de variables en una muestra o la cantidad de mediciones realizadas, agrupando en componentes/cl\'usters las variables/mediciones con caracter\'isticas similares. Para lograr esto se usa el an\'alisis de componentes principales y t\'ecnicas de clasificaci\'on como cl\'uster jer\'arquico, algoritmo k-means y \'arboles de clasificaci\'on. 
 
+Todos los m\'etodos antes descritos se abordar\'an y ejemplificaran a lo largo de este informe, no sin antes explicar en qu\'e consiste el set de datos que se analizar\'a en cada secci\'on.\\\\
 
 
 
@@ -91,7 +92,7 @@ De las variables anteriores se catalogan como principales, por su importancia, e
 
 
 \section{Regresi\'on lineal}
-Utilizaremos el m\'etodo backward para realizar un modelo de regresi\'on lineal que explique el comportamiento de la resistencia residual. Luego nuestro modelo comienza con todas las variables principales, analicemos los resultados:\\
+Utilizaremos el m\'etodo backward para realizar un modelo de regresi\'on lineal que explique el comportamiento de la resistencia residual a partir del resto de las variables principales. Luego nuestro modelo comienza con todas las variables antes mencionadas, analicemos los resultados:\\
 
 \includegraphics[scale = 0.5]{images/pic_01.png} \\
 
@@ -107,8 +108,9 @@ Luego llegamos a un modelo que tiene a \textit{ResiduaryResistance} como variabl
 \includegraphics[scale = 0.4]{images/pic_03.png} \\
 
 Ahora tenemos que Pr($>|t|$) de la variable independiente y del intercepto son menores que $0.05$. El p-value tambi\'en es menor que $0.05$. Por lo tanto, podemos proceder a hacer un an\'alisis de la presici\'on del modelo.\\
-El modelo resultante es:
-$$\hat{ResiduaryResistance} = -24.484 + 121.668 * FroudeNumber$$
+El modelo resultante es:\\
+
+$\hat{ResiduaryResistance} = -24.484 + \\ 121.668 * FroudeNumber$\\
 
 Se observa que el coeficiente del intercepto es mucho menor que el coeficiente del n\'umero de Froude, por lo tanto podemos decir que la mayor parte de la resistencia residual de los barcos est\'a explicada a partir del n\'umero de Froude. El coeficiente del n\'umero de Froude es significativo al $0\%$ y el del intercepto tambi\'en es significativo al $0\%$. Analizando los valores de estos coeficientes, se puede afirmar que por cada aumento unitario en el n\'umero de Froude debemos esperar que la resistencia residual aumente en $121.668$. \\
 
@@ -275,13 +277,13 @@ Son demasiadas variables para analizar de forma visual. Debemos acudir entonces 
 
 \includegraphics[scale = 0.5]{images/pic_22.png} \\
 
-Como se puede apreciar no es una matriz altamente correlacionada, y solo tiene una marcada correlaci\'on el n\'umero de Froude y la resistencia residual, marcado con el s\'imbolo de $+$. 
+Como se puede apreciar no es una matriz altamente correlacionada, y solo tiene una marcada correlaci\'on el n\'umero de Froude y la resistencia residual, denotado con el s\'imbolo de $+$. 
 
-En este caso ya las variables son independientes por lo que este an\'alisis solo servir\'ia para reducir dimensi\'on. As\'i que podemos proseguir a realizar el ACP, obteniendo los siguientes resultados:\\
+En este caso ya las variables son independientes, por lo que este an\'alisis solo servir\'ia para reducir dimensi\'on. As\'i que podemos proseguir a realizar el ACP, obteniendo los siguientes resultados:\\
 
 \includegraphics[scale = 0.4]{images/pic_23.png} \\
 
-Ahora debemos escoger nuestras componentes principales. Seg\'un el criterio de Kaiser nos quedar\'iamos con las cuatro primeras componentes, explicando estas el $86\%$ de la muestra. Pero no hacemos mucho reduciendo a cuatro componentes dado que tenemos 7 variables. Por tanto, como el valor propio de la cuarta componente est\'a a solo $0.002$ por encima de $1$, y que las tres primeras componentes explican el $71\%$ de la muestra, nos quedaremos con PC1, PC2 y PC3.
+Ahora debemos escoger nuestras componentes principales. Seg\'un el criterio de Kaiser nos quedar\'iamos con las cuatro primeras componentes, explicando estas el $86\%$ de la muestra. Pero no hacemos mucho reduciendo a cuatro componentes dado que tenemos 7 variables. Por tanto, como el valor propio de la cuarta componente est\'a a solo $0.0002$ por encima de $1$, y como las tres primeras componentes explican el $71\%$ de la muestra, entonces nos quedaremos con PC1, PC2 y PC3.
 
 Podemos, adem\'as, ver las componentes de forma visual para ratificar nuestra decisi\'on. Si graficamos estas componentes obtenemos:\\
 
@@ -311,7 +313,7 @@ Entre las t\'ecnicas para la reducci\'on de dimensi\'on se encuentran las t\'ecn
 
 A partir de esta subsecci\'on nos centraremos en aplicar t\'ecnicas para reducir el tama\~no de la muestra.
 
-El primer paso independientemente del procedimiento a seguir ser\'a estandarizar los datos para evitar errores en la clasificaci\'on por cuestiones de variabilidad en las unidades de medidas. Para esto tipificaremos cada una de las 7 variables. Obteniendo
+El primer paso, independientemente del procedimiento a seguir, ser\'a estandarizar los datos para evitar errores en la clasificaci\'on por cuestiones de variabilidad en las unidades de medidas. Para esto tipificaremos cada una de las 7 variables. Obteniendo
 $Z_i = \frac{X_i - \mu_i}{\sigma_i}$.
 
 Para estandarizar usamos la funci\'on de R \textbf{scale}, y como se observa a continuaci\'on los datos estandarizados tienen el mismo comportamiento que los que no fueron estandarizados, la diferencia est\'a en la escala de las mediciones que es similar.\\
@@ -323,7 +325,7 @@ Una vez escaladas las mediciones construimos la matriz de distancias que ser\'a 
 
 \includegraphics[scale = 0.5]{images/pic_29.png} \\
 
-A partir de este gr\'afico podemos determinar la cantidad de cl\'usters haciendo cortes horizontales a alturas determinadas. Por ejemplo si cortamos a altura mayor que $6$, obtendremos dos cl\'usters, como pudimos observar en la figura, uno que contiene a un peque\~no grupo de yates y otro que contiene al resto. Pero no tiene sentido, a pesar de que un peque\~no grupo de veleros se comporte de manera distinta, analizar el resto de los barcos como uno solo, pues si bajamos la altura vemos que ese gran cl\'uster se divide en cl\'usters m\'as peque\~nos. Tampoco tendr\'ia sentido realizar un an\'alisis por debajo de la altura $4$ pues tendr\'iamos muchos cl\'usters de elementos muy parecidos. En este caso decidimos quedarnos con $4$ cl\'usters como se muestra a continuaci\'on.\\
+A partir de este gr\'afico podemos determinar la cantidad de cl\'usters haciendo cortes horizontales a alturas determinadas. Por ejemplo, si cortamos a altura poco mayor que $6$, obtendremos dos cl\'usters, como pudimos observar en la figura, uno que contiene a un peque\~no grupo de yates y otro que contiene al resto. Pero no tiene sentido, a pesar de que un peque\~no grupo de veleros se comporte de manera distinta, analizar el resto de los barcos como uno solo, pues si bajamos la altura vemos que ese gran cl\'uster se divide en cl\'usters m\'as peque\~nos. Tampoco tendr\'ia sentido realizar un an\'alisis por debajo de la altura $4$ pues tendr\'iamos muchos cl\'usters de elementos muy parecidos. En este caso decidimos quedarnos con $4$ cl\'usters como se muestra a continuaci\'on.\\
 
 \includegraphics[scale = 0.5]{images/pic_30.png} \\
 
@@ -343,9 +345,9 @@ Habiendo realizado la clasificaci\'on por el m\'etodo jer\'arquico, utilicemos a
 
 \includegraphics[scale=0.3]{images/pic_32.png} \\
 
-Al aplicar la funci\'on k-means y comprobar su resultado obtenemos un vector de cl\'usters que nos dice en qu\'e clúster est\'a cada barco y cu\'antos elementos hay. En este caso tenemos $4$ cl\'usters con $26$, $158$, $65$ y $69$ barcos respectivamente. Notemos que sigue habiendo un cl\'uster con un peque\~no grupo de barcos que se comportan de forma distinta.
+Al aplicar la funci\'on k-means y comprobar su resultado obtenemos un vector de cl\'usters que nos dice en qu\'e cl\'uster est\'a cada barco y cu\'antos elementos hay. En este caso tenemos $4$ cl\'usters con $26$, $158$, $65$ y $69$ barcos respectivamente. Notemos que sigue habiendo un cl\'uster con un peque\~no grupo de barcos que se comportan de forma distinta.
 
-Tambi\'en tenemos las medias de los elementos de cada variable por cada cl\'uster y, una de las informaciones m\'as importantes que podemos obtener, es la medida de similitud entre los elementos de cada cl\'uster, en este caso ser\'ia un $40.4\%$, muy malo. Debemos al menos duplicar la cantidad de cl\'uster para elevar un poco ese porcentaje.
+Tambi\'en tenemos las medias de los elementos de cada variable por cada cl\'uster y, una de las informaciones m\'as importantes que podemos obtener, es la medida de similitud entre los elementos de cada cl\'uster, en este caso ser\'ia un $40.4\%$, que no es bueno. Debemos, al menos, duplicar la cantidad de cl\'usters para elevar un poco ese porcentaje.
 
 Repetimos el algoritmo esta vez con $8$ cl\'usters.\\
 
@@ -359,12 +361,50 @@ Si graficamos el resultado de k-means obtendremos una matriz de gr\'aficos.\\
 
 La cual resulta imposible de analizar, por lo que si queremos analizar las relaciones de forma visual entre variables debemos analizarlas dos a dos, por ejemplo, resistencia residual y coeficiente prism\'atico.\\
 
-\includegraphics[scale=0.5]{images/pic_35.png} \\\\
+\includegraphics[scale=0.5]{images/pic_35.png} \\
+
+Podemos observar los distintos cl\'usters representados con colores distintos. Adem\'as se han representado los centros de cada uno con tri\'angulos.
 
 
 \subsection{\'Arboles de clasificaci\'on}
+En esta secci\'on construiremos un \'arbol de clasificaci\'on para nuestros datos. Los \'arboles de clasificaci\'on son un m\'etodo usado en distintas disciplinas como modelo de predicci\'on. Estos son similares a diagramas de flujo, en los que llegamos a puntos en los que se toman decisiones de acuerdo a una regla.
 
-\includegraphics[scale=0.4]{images/pic_36.png}
+Hay distintas maneras de obtener estos \'arboles, la que usaremos en esta ocasi\'on es conocida como CART: Classification And Regression Trees. Esta es una t\'ecnica de aprendizaje supervisado. Tenemos una variable objetivo (dependiente) y nuestra meta es obtener una funci\'on que nos permita predecir, a partir de variables predictoras (independientes), el valor de la variable objetivo para casos desconocidos.
+
+En este caso la idea es ser capaz de predecir la resistencia residual de un yate velero basado en el resto de las variables que se brindan. La implementaci\'on particular de CART que usaremos es conocida como Recursive Partitioning and Regression Trees o RPART. De ah\'i el nombre del paquete que utilizaremos. De manera general, lo que hace este algoritmo es encontrar la variable independiente que mejor separa nuestros datos en grupos, que corresponden con las categor\'ias de la variable objetivo. Esta mejor separaci\'on es expresada con una regla. A cada regla corresponde un nodo.
+
+Lo primero es escoger los conjuntos de entrenamiento y de prueba que ser\'an conjuntos disjuntos, en este caso se toman dos tercios de la poblaci\'on para el conjunto de entrenamiento y el tercio restante servir\'a para probar el \'arbol y calcular el error de clasificaci\'on.
+
+Usamos la funci\'on de R \textbf{rpart} de la librer\'ia \textit{rpart} para entrenar nuestro modelo y obtenemos el siguiente resultado.\\
+
+\includegraphics[scale=0.5]{images/pic_36.png} \\
+
+Lo anterior muestra el esquema de nuestro \'arbol de clasificaci\'on. Cada inciso nos indica un nodo y la regla de clasificaci\'on que le corresponde. Siguiendo estos nodos, podemos llegar a las hojas del \'arbol, que corresponde a la clasificaci\'on de nuestros datos. Todo lo anterior resulta mucho m\'as claro si lo visualizamos, as\'i que creamos la siguiente gr\'afica usando nuestro modelo.\\
+
+\includegraphics[scale=0.5]{images/pic_37.png}\\
+
+En este gr\'afico, cada una de las intersecciones representa un nodo de nuestro \'arbol, con su regla de clasificaci\'on. Tengamos en cuenta que si bajamos por su rama izquierda estamos asumiendo que la regla se cumple. De esta forma si tenemos un velero con un n\'umero de Froude menor que $0.34$ nuestro \'arbol predice que la resistencia residual de este ser\'a de $1.9$. Si el n\'umero de Froude es menor que $0.38$ y mayor que $0.34$ ($0.34 \leq FroudeNumber < 0.39$) la resistencia residual del barco ser\'a de $10.47$. Por otro lado, si el n\'umero de Froude es menor que $0.41$ tendr\'iamos una resistencia residual de $22.19$. Si $0.41 \leq FroudeNumber < 0.44$ entonces la resistencia residual ser\'ia igual a $34.37$. Por \'ultimo, si $FroudeNumber \geq 0.44$ implica que la resistencia residual del velero tendr\'ia un valor de $52.8$.
+
+Posteriormente podaremos el \'arbol de regresi\'on para encontrar el valor \'optimo a utilizar para \textit{cp}, el par\'ametro de complejidad que le pasamos a la funci\'on \textbf{rpart}, que conduce al error de prueba m\'as bajo. Debemos tener en cuenta que el valor \'optimo de \textit{cp} es el que conduce al \textit{xerror} m\'as bajo en la imagen siguiente, que representa el error en las observaciones de los datos de validaci\'on cruzada.\\
+
+\includegraphics[scale=0.5]{images/pic_38.png}\\
+
+Podemos notar que el valor que corresponde al \textit{xerror} m\'as peque\~no es $cp = 0.01$, el mismo que utilizamos para crear el \'arbol inicial. 
+
+Otra forma de ver el \textit{cp} \'optimo es graficar el conjunto de posibles podas de costo-complejidad de un \'arbol. Para las medias geom\'etricas de los intervalos de valores \textit{cp} para los que una poda es \'optima, se ha realizado una validaci\'on cruzada en la construcci\'on inicial por \textbf{rpart}.\\
+
+\includegraphics[scale=0.5]{images/pic_39.png}\\
+
+Una buena opci\'on \textit{cp} para podar es a menudo el valor m\'as a la izquierda para el que la media se encuentra por debajo de la l\'inea horizontal. Se puede observar que esto ocurre alrededor del mismo valor de \textit{cp} utilizado.
+
+Ahora bien, necesitamos ser m\'as sistem\'aticos para indagar qu\'e tan bien hace predicciones nuestro modelo. Para ello generamos un vector de predicciones utilizando nuestro conjunto de prueba que contendr\'a los valores predichos por el modelo que hemos entrenado. Posteriormente cruzamos la predicci\'on con los datos reales de nuestro conjunto de prueba para generar una matriz de confusi\'on a partir de la cual se calcular\'a el error.\\
+
+\includegraphics[scale=0.7]{images/pic_40.png}\\
+
+Este valor de error es bastante elevado, lo que quiere decir que nuestro \'arbol no es efectivo.
+
+\subsection{Conclusiones}
+A lo largo de este informe se analizaron conjuntos de datos, pudiendo caracterizar su comportamiento gracias a las t\'ecnicas de regresi\'on lineal, ANOVA y reducci\'on de dimensi\'on.
 
 \end{multicols}{2}
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2021.3.21)  6 DEC 2021 01:11
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2021.3.21)  7 DEC 2021 01:00
 entering extended mode
 **informe.tex
 
@@ -578,108 +578,132 @@ Package microtype Info: Character `029' is missing
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 61.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 63.
 
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-[]\T1/pplx/m/n/10 (+20) Relaci�n longitud-desplazamiento,
+Underfull \hbox (badness 7667) in paragraph at lines 68--69
+\T1/pplx/m/n/10 (+20) agru-pando en com-po-nentes/cl�sters las
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+\T1/pplx/m/n/10 (+20) vari-ables/mediciones con car-ac-ter�s-ti-cas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+[]\T1/pplx/m/n/10 (+20) Relaci�n longitud-desplazamiento,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-<images/pic_01.png, id=60, 389.20406pt x 238.64156pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+<images/pic_01.png, id=58, 389.20406pt x 238.64156pt>
 File: images/pic_01.png Graphic file (type png)
  <use images/pic_01.png>
-Package pdftex.def Info: images/pic_01.png used on input line 96.
+Package pdftex.def Info: images/pic_01.png used on input line 97.
 (pdftex.def)             Requested size: 194.60155pt x 119.32048pt.
 
-Overfull \hbox (4.59924pt too wide) in paragraph at lines 96--97
+Overfull \hbox (4.59924pt too wide) in paragraph at lines 97--98
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
 []\T1/pplx/m/n/10 (+20) Podemos ob-ser-var que la vari-able
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 98--100
+Underfull \hbox (badness 5667) in paragraph at lines 99--101
 \T1/pplx/m/n/10 (+20) co-e-fi-ciente pris-m�tico (\T1/pplx/m/it/10 (+20) Prism-
 Co-eff\T1/pplx/m/n/10 (+20) ) ni el
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
  []
 
-<images/pic_02.png, id=61, 530.73282pt x 206.27063pt>
+<images/pic_02.png, id=59, 500.62032pt x 206.27063pt>
 File: images/pic_02.png Graphic file (type png)
  <use images/pic_02.png>
-Package pdftex.def Info: images/pic_02.png used on input line 101.
-(pdftex.def)             Requested size: 212.28937pt x 82.50677pt.
+Package pdftex.def Info: images/pic_02.png used on input line 102.
+(pdftex.def)             Requested size: 200.24457pt x 82.50677pt.
 
-Overfull \hbox (22.28706pt too wide) in paragraph at lines 101--102
+Overfull \hbox (10.24226pt too wide) in paragraph at lines 102--103
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
-
-Underfull \hbox (badness 6157) in paragraph at lines 103--104
+[2 <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyec
+to Estadística Fase 2/images/pic_01.png>]
+Underfull \hbox (badness 6157) in paragraph at lines 104--105
 \T1/pplx/m/n/10 (+20) no est� cor-rela-cionada con la vari-able
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
-<images/pic_03.png, id=62, 411.78844pt x 200.24812pt>
+<images/pic_03.png, id=72, 411.78844pt x 200.24812pt>
 File: images/pic_03.png Graphic file (type png)
  <use images/pic_03.png>
-Package pdftex.def Info: images/pic_03.png used on input line 107.
+Package pdftex.def Info: images/pic_03.png used on input line 108.
 (pdftex.def)             Requested size: 164.71245pt x 80.09782pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
 
-Overfull \hbox (51.39671pt too wide) detected at line 111
-[] \OT1/zplm/m/n/10 = \OMS/zplm/m/n/10  \OT1/pplx/m/n/10 24.484 \OT1/zplm/m/n/1
-0 + \OT1/pplx/m/n/10 121.668 \OMS/zplm/m/n/10  \OML/zplm/m/it/10 FroudeNumber
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
+
  []
 
 
@@ -692,88 +716,87 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
-[2 <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyec
-to Estadística Fase 2/images/pic_01.png> <D:/MATCOM/4to Año/my files/2do seme
-stre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_02.png
-> <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyect
-o Estadística Fase 2/images/pic_03.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 []\T1/pplx/m/n/10 (+20) La Var-i-anza del er-ror aleato-rio
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 \T1/pplx/m/n/10 (+20) es con-stante ($\OML/zplm/m/it/10 V\OT1/zplm/m/n/10 (\OML
 /zplm/m/it/10 e[]\OT1/zplm/m/n/10 ) = \OML/zplm/m/it/10 []$\T1/pplx/m/n/10 (+2
 0) ).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 []\T1/pplx/m/n/10 (+20) Los er-rores adem�s de ser
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 \T1/pplx/m/n/10 (+20) in-de-pen-di-entes son id�n-ti-ca-mente
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--130
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
-
- []
-
-<images/pic_04.png, id=69, 109.1578pt x 45.92157pt>
-File: images/pic_04.png Graphic file (type png)
- <use images/pic_04.png>
-Package pdftex.def Info: images/pic_04.png used on input line 133.
-(pdftex.def)             Requested size: 76.40993pt x 32.14487pt.
-
+[3 <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyec
+to Estadística Fase 2/images/pic_02.png> <D:/MATCOM/4to Año/my files/2do seme
+stre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_03.png
+>]
 Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
+<images/pic_04.png, id=87, 109.1578pt x 45.92157pt>
+File: images/pic_04.png Graphic file (type png)
+ <use images/pic_04.png>
+Package pdftex.def Info: images/pic_04.png used on input line 135.
+(pdftex.def)             Requested size: 76.40993pt x 32.14487pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
-<images/pic_05.png, id=70, 423.08063pt x 268.00125pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+<images/pic_05.png, id=88, 423.08063pt x 268.00125pt>
 File: images/pic_05.png Graphic file (type png)
  <use images/pic_05.png>
-Package pdftex.def Info: images/pic_05.png used on input line 137.
+Package pdftex.def Info: images/pic_05.png used on input line 139.
 (pdftex.def)             Requested size: 169.22925pt x 107.1986pt.
 
-<images/pic_06.png, id=71, 423.08063pt x 268.00125pt>
+<images/pic_06.png, id=89, 423.08063pt x 268.00125pt>
 File: images/pic_06.png Graphic file (type png)
  <use images/pic_06.png>
-Package pdftex.def Info: images/pic_06.png used on input line 138.
+Package pdftex.def Info: images/pic_06.png used on input line 140.
 (pdftex.def)             Requested size: 169.22925pt x 107.1986pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--139
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
-
- []
-
-<images/pic_07.png, id=72, 225.09094pt x 51.19125pt>
-File: images/pic_07.png Graphic file (type png)
- <use images/pic_07.png>
-Package pdftex.def Info: images/pic_07.png used on input line 142.
-(pdftex.def)             Requested size: 135.05559pt x 30.71498pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
+<images/pic_07.png, id=90, 225.09094pt x 51.19125pt>
+File: images/pic_07.png Graphic file (type png)
+ <use images/pic_07.png>
+Package pdftex.def Info: images/pic_07.png used on input line 144.
+(pdftex.def)             Requested size: 135.05559pt x 30.71498pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
@@ -784,25 +807,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
 
-[3 <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyec
-to Estadística Fase 2/images/pic_04.png> <D:/MATCOM/4to Año/my files/2do seme
-stre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_05.png
-> <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyect
-o Estadística Fase 2/images/pic_06.png> <D:/MATCOM/4to Año/my files/2do semes
-tre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_07.png>
-] <images/pic_08.png, id=86, 382.42876pt x 64.74188pt>
-File: images/pic_08.png Graphic file (type png)
- <use images/pic_08.png>
-Package pdftex.def Info: images/pic_08.png used on input line 148.
-(pdftex.def)             Requested size: 191.2139pt x 32.37085pt.
-
-Overfull \hbox (1.2116pt too wide) in paragraph at lines 148--149
-[][] 
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
+ []
+
+<images/pic_08.png, id=91, 382.42876pt x 64.74188pt>
+File: images/pic_08.png Graphic file (type png)
+ <use images/pic_08.png>
+Package pdftex.def Info: images/pic_08.png used on input line 150.
+(pdftex.def)             Requested size: 191.2139pt x 32.37085pt.
+
+Overfull \hbox (1.2116pt too wide) in paragraph at lines 150--151
+[][] 
  []
 
 
@@ -812,104 +829,109 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 152--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 []\T1/pplx/m/n/10 (+20) Para pro-bar el supuesto $\OT1/pplx/m/n/10 (+20) 4$ \T1
 /pplx/m/n/10 (+20) de la
  []
 
 
-Underfull \hbox (badness 7344) in paragraph at lines 152--153
+Underfull \hbox (badness 7344) in paragraph at lines 154--155
 \T1/pplx/m/n/10 (+20) Ho-mo-cedas-ti-ci-dad pode-mos graficar los
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
-<images/pic_09.png, id=87, 423.08063pt x 268.00125pt>
+<images/pic_09.png, id=92, 423.08063pt x 268.00125pt>
 File: images/pic_09.png Graphic file (type png)
  <use images/pic_09.png>
-Package pdftex.def Info: images/pic_09.png used on input line 154.
+Package pdftex.def Info: images/pic_09.png used on input line 156.
 (pdftex.def)             Requested size: 169.22925pt x 107.1986pt.
 
-<images/pic_10.png, id=88, 423.08063pt x 268.00125pt>
+<images/pic_10.png, id=93, 423.08063pt x 268.00125pt>
 File: images/pic_10.png Graphic file (type png)
  <use images/pic_10.png>
-Package pdftex.def Info: images/pic_10.png used on input line 155.
+Package pdftex.def Info: images/pic_10.png used on input line 157.
 (pdftex.def)             Requested size: 169.22925pt x 107.1986pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--156
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
-
- []
-
-<images/pic_11.png, id=89, 246.9225pt x 54.9553pt>
-File: images/pic_11.png Graphic file (type png)
- <use images/pic_11.png>
-Package pdftex.def Info: images/pic_11.png used on input line 159.
-(pdftex.def)             Requested size: 148.15462pt x 32.97342pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
+[4 <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyec
+to Estadística Fase 2/images/pic_04.png> <D:/MATCOM/4to Año/my files/2do seme
+stre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_05.png
+> <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyect
+o Estadística Fase 2/images/pic_06.png> <D:/MATCOM/4to Año/my files/2do semes
+tre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_07.png>
+ <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyecto
+ Estadística Fase 2/images/pic_08.png> <D:/MATCOM/4to Año/my files/2do semest
+re/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_09.png> 
+<D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyecto 
+Estadística Fase 2/images/pic_10.png>]
+<images/pic_11.png, id=102, 246.9225pt x 54.9553pt>
+File: images/pic_11.png Graphic file (type png)
+ <use images/pic_11.png>
+Package pdftex.def Info: images/pic_11.png used on input line 161.
+(pdftex.def)             Requested size: 148.15462pt x 32.97342pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 \T1/pplx/m/n/10 (+20) plantear re-sponde al sigu-iente mod-elo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--178
-
- []
-
-[4 <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyec
-to Estadística Fase 2/images/pic_08.png> <D:/MATCOM/4to Año/my files/2do seme
-stre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_09.png
-> <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyect
-o Estadística Fase 2/images/pic_10.png> <D:/MATCOM/4to Año/my files/2do semes
-tre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_11.png>
-]
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--206
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--206
+Underfull \hbox (badness 10000) in paragraph at lines 195--208
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+Underfull \hbox (badness 10000) in paragraph at lines 195--208
 
  []
 
@@ -918,92 +940,95 @@ Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
-<images/pic_12.png, id=96, 423.08063pt x 268.00125pt>
+[5 <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyec
+to Estadística Fase 2/images/pic_11.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+
+ []
+
+<images/pic_12.png, id=107, 423.08063pt x 268.00125pt>
 File: images/pic_12.png Graphic file (type png)
  <use images/pic_12.png>
-Package pdftex.def Info: images/pic_12.png used on input line 211.
+Package pdftex.def Info: images/pic_12.png used on input line 213.
 (pdftex.def)             Requested size: 169.22925pt x 107.1986pt.
 
-<images/pic_13.png, id=97, 423.08063pt x 268.00125pt>
+<images/pic_13.png, id=108, 423.08063pt x 268.00125pt>
 File: images/pic_13.png Graphic file (type png)
  <use images/pic_13.png>
-Package pdftex.def Info: images/pic_13.png used on input line 212.
+Package pdftex.def Info: images/pic_13.png used on input line 214.
 (pdftex.def)             Requested size: 169.22925pt x 107.1986pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--213
+Underfull \hbox (badness 10000) in paragraph at lines 213--215
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
-
- []
-
-<images/pic_14.png, id=98, 387.69844pt x 70.76437pt>
-File: images/pic_14.png Graphic file (type png)
- <use images/pic_14.png>
-Package pdftex.def Info: images/pic_14.png used on input line 218.
-(pdftex.def)             Requested size: 155.07661pt x 28.30524pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 218--219
 
  []
 
+<images/pic_14.png, id=109, 387.69844pt x 70.76437pt>
+File: images/pic_14.png Graphic file (type png)
+ <use images/pic_14.png>
+Package pdftex.def Info: images/pic_14.png used on input line 220.
+(pdftex.def)             Requested size: 155.07661pt x 28.30524pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
-
- []
-
-[5 <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyec
-to Estadística Fase 2/images/pic_12.png> <D:/MATCOM/4to Año/my files/2do seme
-stre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_13.png
-> <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyect
-o Estadística Fase 2/images/pic_14.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
-<images/pic_15.png, id=105, 423.08063pt x 268.00125pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+
+ []
+
+<images/pic_15.png, id=110, 423.08063pt x 268.00125pt>
 File: images/pic_15.png Graphic file (type png)
  <use images/pic_15.png>
-Package pdftex.def Info: images/pic_15.png used on input line 233.
+Package pdftex.def Info: images/pic_15.png used on input line 235.
 (pdftex.def)             Requested size: 169.22925pt x 107.1986pt.
 
-<images/pic_16.png, id=106, 423.08063pt x 268.00125pt>
+<images/pic_16.png, id=111, 423.08063pt x 268.00125pt>
 File: images/pic_16.png Graphic file (type png)
  <use images/pic_16.png>
-Package pdftex.def Info: images/pic_16.png used on input line 234.
+Package pdftex.def Info: images/pic_16.png used on input line 236.
 (pdftex.def)             Requested size: 169.22925pt x 107.1986pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--235
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--235
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
-
- []
-
-<images/pic_17.png, id=107, 216.05719pt x 56.46094pt>
-File: images/pic_17.png Graphic file (type png)
- <use images/pic_17.png>
-Package pdftex.def Info: images/pic_17.png used on input line 238.
-(pdftex.def)             Requested size: 129.6353pt x 33.8768pt.
-
+[6 <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyec
+to Estadística Fase 2/images/pic_12.png> <D:/MATCOM/4to Año/my files/2do seme
+stre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_13.png
+> <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyect
+o Estadística Fase 2/images/pic_14.png> <D:/MATCOM/4to Año/my files/2do semes
+tre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_15.png>
+]
 Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
 
+<images/pic_17.png, id=122, 216.05719pt x 56.46094pt>
+File: images/pic_17.png Graphic file (type png)
+ <use images/pic_17.png>
+Package pdftex.def Info: images/pic_17.png used on input line 240.
+(pdftex.def)             Requested size: 129.6353pt x 33.8768pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
@@ -1014,19 +1039,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 242--243
 
  []
 
-<images/pic_18.png, id=108, 383.93437pt x 67.75313pt>
-File: images/pic_18.png Graphic file (type png)
- <use images/pic_18.png>
-Package pdftex.def Info: images/pic_18.png used on input line 244.
-(pdftex.def)             Requested size: 191.9667pt x 33.87646pt.
-
-Overfull \hbox (1.9644pt too wide) in paragraph at lines 244--245
-[][] 
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 244--245
 
+ []
+
+<images/pic_18.png, id=123, 383.93437pt x 67.75313pt>
+File: images/pic_18.png Graphic file (type png)
+ <use images/pic_18.png>
+Package pdftex.def Info: images/pic_18.png used on input line 246.
+(pdftex.def)             Requested size: 191.9667pt x 33.87646pt.
+
+Overfull \hbox (1.9644pt too wide) in paragraph at lines 246--247
+[][] 
  []
 
 
@@ -1039,50 +1064,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
  []
 
-<images/pic_19.png, id=109, 423.08063pt x 268.00125pt>
-File: images/pic_19.png Graphic file (type png)
- <use images/pic_19.png>
-Package pdftex.def Info: images/pic_19.png used on input line 250.
-(pdftex.def)             Requested size: 169.22925pt x 107.1986pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
+<images/pic_19.png, id=124, 423.08063pt x 268.00125pt>
+File: images/pic_19.png Graphic file (type png)
+ <use images/pic_19.png>
+Package pdftex.def Info: images/pic_19.png used on input line 252.
+(pdftex.def)             Requested size: 169.22925pt x 107.1986pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 252--253
 
  []
 
-<images/pic_20.png, id=110, 350.81062pt x 57.96657pt>
-File: images/pic_20.png Graphic file (type png)
- <use images/pic_20.png>
-Package pdftex.def Info: images/pic_20.png used on input line 254.
-(pdftex.def)             Requested size: 175.40488pt x 28.9832pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
  []
 
+<images/pic_20.png, id=125, 350.81062pt x 57.96657pt>
+File: images/pic_20.png Graphic file (type png)
+ <use images/pic_20.png>
+Package pdftex.def Info: images/pic_20.png used on input line 256.
+(pdftex.def)             Requested size: 175.40488pt x 28.9832pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 256--257
-
- []
-
-[6 <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyec
-to Estadística Fase 2/images/pic_15.png> <D:/MATCOM/4to Año/my files/2do seme
-stre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_16.png
-> <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyect
-o Estadística Fase 2/images/pic_17.png> <D:/MATCOM/4to Año/my files/2do semes
-tre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_18.png>
- <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyecto
- Estadística Fase 2/images/pic_19.png> <D:/MATCOM/4to Año/my files/2do semest
-re/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_20.png>]
 
 Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
@@ -1094,134 +1105,137 @@ Underfull \hbox (badness 10000) in paragraph at lines 258--259
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--267
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--269
 |\T1/pplx/m/n/12 (+20) I. An�li-sis de com-po-nentes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
 \T1/pplx/m/n/10 (+20) agru-pando vari-ables en com-po-nentes
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
-
- []
-
-<images/pic_21.png, id=121, 423.08063pt x 268.00125pt>
-File: images/pic_21.png Graphic file (type png)
- <use images/pic_21.png>
-Package pdftex.def Info: images/pic_21.png used on input line 272.
-(pdftex.def)             Requested size: 169.22925pt x 107.1986pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
+<images/pic_21.png, id=126, 423.08063pt x 268.00125pt>
+File: images/pic_21.png Graphic file (type png)
+ <use images/pic_21.png>
+Package pdftex.def Info: images/pic_21.png used on input line 274.
+(pdftex.def)             Requested size: 169.22925pt x 107.1986pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
-<images/pic_22.png, id=122, 318.43968pt x 112.16907pt>
-File: images/pic_22.png Graphic file (type png)
- <use images/pic_22.png>
-Package pdftex.def Info: images/pic_22.png used on input line 276.
-(pdftex.def)             Requested size: 159.21945pt x 56.08438pt.
-
+[7 <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyec
+to Estadística Fase 2/images/pic_16.png> <D:/MATCOM/4to Año/my files/2do seme
+stre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_17.png
+> <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyect
+o Estadística Fase 2/images/pic_18.png> <D:/MATCOM/4to Año/my files/2do semes
+tre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_19.png>
+ <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyecto
+ Estadística Fase 2/images/pic_20.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 276--277
 
  []
 
+<images/pic_22.png, id=134, 318.43968pt x 112.16907pt>
+File: images/pic_22.png Graphic file (type png)
+ <use images/pic_22.png>
+Package pdftex.def Info: images/pic_22.png used on input line 278.
+(pdftex.def)             Requested size: 159.21945pt x 56.08438pt.
 
-Underfull \hbox (badness 7451) in paragraph at lines 280--281
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+
+ []
+
+
+Underfull \hbox (badness 7451) in paragraph at lines 282--283
 []\T1/pplx/m/n/10 (+20) En este caso ya las vari-ables son
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
-
- []
-
-<images/pic_23.png, id=123, 450.9347pt x 56.46094pt>
-File: images/pic_23.png Graphic file (type png)
- <use images/pic_23.png>
-Package pdftex.def Info: images/pic_23.png used on input line 282.
-(pdftex.def)             Requested size: 180.37068pt x 22.58397pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 282--283
 
  []
 
+<images/pic_23.png, id=135, 450.9347pt x 56.46094pt>
+File: images/pic_23.png Graphic file (type png)
+ <use images/pic_23.png>
+Package pdftex.def Info: images/pic_23.png used on input line 284.
+(pdftex.def)             Requested size: 180.37068pt x 22.58397pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 284--285
-[]\T1/pplx/m/n/10 (+20) Ahora debe-mos es-coger nues-tras
+
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 286--287
-
+[]\T1/pplx/m/n/10 (+20) Ahora debe-mos es-coger nues-tras
  []
 
-<images/pic_24.png, id=124, 423.08063pt x 268.00125pt>
-File: images/pic_24.png Graphic file (type png)
- <use images/pic_24.png>
-Package pdftex.def Info: images/pic_24.png used on input line 288.
-(pdftex.def)             Requested size: 169.22925pt x 107.1986pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 288--289
 
  []
 
-[7 <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyec
-to Estadística Fase 2/images/pic_21.png> <D:/MATCOM/4to Año/my files/2do seme
-stre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_22.png
-> <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyect
-o Estadística Fase 2/images/pic_23.png> <D:/MATCOM/4to Año/my files/2do semes
-tre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_24.png>
-]
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
+<images/pic_24.png, id=136, 423.08063pt x 268.00125pt>
+File: images/pic_24.png Graphic file (type png)
+ <use images/pic_24.png>
+Package pdftex.def Info: images/pic_24.png used on input line 290.
+(pdftex.def)             Requested size: 169.22925pt x 107.1986pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
 
  []
 
-<images/pic_25.png, id=132, 356.83313pt x 91.09032pt>
-File: images/pic_25.png Graphic file (type png)
- <use images/pic_25.png>
-Package pdftex.def Info: images/pic_25.png used on input line 294.
-(pdftex.def)             Requested size: 178.41612pt x 45.54503pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 294--295
 
  []
 
+<images/pic_25.png, id=137, 356.83313pt x 91.09032pt>
+File: images/pic_25.png Graphic file (type png)
+ <use images/pic_25.png>
+Package pdftex.def Info: images/pic_25.png used on input line 296.
+(pdftex.def)             Requested size: 178.41612pt x 45.54503pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 296--297
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
 \T1/pplx/m/n/10 (+20) Tomamos el mayor valor pro-pio
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
-
- []
-
-
+[8 <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyec
+to Estadística Fase 2/images/pic_21.png> <D:/MATCOM/4to Año/my files/2do seme
+stre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_22.png
+> <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyect
+o Estadística Fase 2/images/pic_23.png> <D:/MATCOM/4to Año/my files/2do semes
+tre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_24.png>
+ <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyecto
+ Estadística Fase 2/images/pic_25.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 302--303
 
- []
-
-<images/pic_26.png, id=133, 795.72281pt x 554.07pt>
-File: images/pic_26.png Graphic file (type png)
- <use images/pic_26.png>
-Package pdftex.def Info: images/pic_26.png used on input line 304.
-(pdftex.def)             Requested size: 238.71867pt x 166.22227pt.
-
-Overfull \hbox (48.71637pt too wide) in paragraph at lines 304--305
-[][] 
  []
 
 
@@ -1229,59 +1243,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 304--305
 
  []
 
+<images/pic_26.png, id=144, 671.50874pt x 554.07pt>
+File: images/pic_26.png Graphic file (type png)
+ <use images/pic_26.png>
+Package pdftex.def Info: images/pic_26.png used on input line 306.
+(pdftex.def)             Requested size: 201.45418pt x 166.22227pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 317--318
-
- []
-
-[8 <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyec
-to Estadística Fase 2/images/pic_25.png> <D:/MATCOM/4to Año/my files/2do seme
-stre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_26.png
->] <images/pic_27.png, id=138, 423.08063pt x 268.00125pt>
-File: images/pic_27.png Graphic file (type png)
-
-<use images/pic_27.png>
-Package pdftex.def Info: images/pic_27.png used on input line 319.
-(pdftex.def)             Requested size: 169.22925pt x 107.1986pt.
- <images/pic_28.png, id=139, 423.08063pt x 268.00125pt>
-File: images/pic_28.png Graphic file (type png)
-
-<use images/pic_28.png>
-Package pdftex.def Info: images/pic_28.png used on input line 320.
-(pdftex.def)             Requested size: 169.22925pt x 107.1986pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--321
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
-[]\T1/pplx/m/n/10 (+20) Una vez es-cal-adas las medi-ciones
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
-
- []
-
-<images/pic_29.png, id=140, 423.08063pt x 268.00125pt>
-File: images/pic_29.png Graphic file (type png)
- <use images/pic_29.png>
-Package pdftex.def Info: images/pic_29.png used on input line 324.
-(pdftex.def)             Requested size: 211.5398pt x 134.00029pt.
-
-Overfull \hbox (21.53749pt too wide) in paragraph at lines 324--325
+Overfull \hbox (11.45187pt too wide) in paragraph at lines 306--307
 [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+
+ []
+
+<images/pic_27.png, id=145, 423.08063pt x 268.00125pt>
+File: images/pic_27.png Graphic file (type png)
+ <use images/pic_27.png>
+Package pdftex.def Info: images/pic_27.png used on input line 321.
+(pdftex.def)             Requested size: 169.22925pt x 107.1986pt.
+
+<images/pic_28.png, id=146, 423.08063pt x 268.00125pt>
+File: images/pic_28.png Graphic file (type png)
+ <use images/pic_28.png>
+Package pdftex.def Info: images/pic_28.png used on input line 322.
+(pdftex.def)             Requested size: 169.22925pt x 107.1986pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--323
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
+[]\T1/pplx/m/n/10 (+20) Una vez es-cal-adas las medi-ciones
  []
 
 
@@ -1289,24 +1299,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 324--325
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
-[]\T1/pplx/m/n/10 (+20) A par-tir de este gr�-fico pode-mos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
-
- []
-
-<images/pic_30.png, id=142, 423.08063pt x 268.00125pt>
-File: images/pic_30.png Graphic file (type png)
- <use images/pic_30.png>
-Package pdftex.def Info: images/pic_30.png used on input line 328.
+[9 <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyec
+to Estadística Fase 2/images/pic_26.png> <D:/MATCOM/4to Año/my files/2do seme
+stre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_27.png
+> <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyect
+o Estadística Fase 2/images/pic_28.png>]
+<images/pic_29.png, id=154, 423.08063pt x 268.00125pt>
+File: images/pic_29.png Graphic file (type png)
+ <use images/pic_29.png>
+Package pdftex.def Info: images/pic_29.png used on input line 326.
 (pdftex.def)             Requested size: 211.5398pt x 134.00029pt.
 
-Overfull \hbox (21.53749pt too wide) in paragraph at lines 328--329
+Overfull \hbox (21.53749pt too wide) in paragraph at lines 326--327
 [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
+[]\T1/pplx/m/n/10 (+20) A par-tir de este gr�-fico pode-mos
  []
 
 
@@ -1314,19 +1329,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 328--329
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
-
- []
-
-<images/pic_31.png, id=143, 423.08063pt x 268.00125pt>
-File: images/pic_31.png Graphic file (type png)
- <use images/pic_31.png>
-Package pdftex.def Info: images/pic_31.png used on input line 334.
+<images/pic_30.png, id=155, 423.08063pt x 268.00125pt>
+File: images/pic_30.png Graphic file (type png)
+ <use images/pic_30.png>
+Package pdftex.def Info: images/pic_30.png used on input line 330.
 (pdftex.def)             Requested size: 211.5398pt x 134.00029pt.
 
-Overfull \hbox (21.53749pt too wide) in paragraph at lines 334--335
+Overfull \hbox (21.53749pt too wide) in paragraph at lines 330--331
 [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
  []
 
 
@@ -1334,15 +1349,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 334--335
 
  []
 
-[9 <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyec
-to Estadística Fase 2/images/pic_27.png> <D:/MATCOM/4to Año/my files/2do seme
-stre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_28.png
-> <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyect
-o Estadística Fase 2/images/pic_29.png> <D:/MATCOM/4to Año/my files/2do semes
-tre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_30.png>
-]
-Underfull \hbox (badness 10000) in paragraph at lines 336--337
+<images/pic_31.png, id=156, 423.08063pt x 268.00125pt>
+File: images/pic_31.png Graphic file (type png)
+ <use images/pic_31.png>
+Package pdftex.def Info: images/pic_31.png used on input line 336.
+(pdftex.def)             Requested size: 211.5398pt x 134.00029pt.
 
+Overfull \hbox (21.53749pt too wide) in paragraph at lines 336--337
+[][] 
  []
 
 
@@ -1351,53 +1365,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 336--337
  []
 
 
-Underfull \hbox (badness 6625) in paragraph at lines 342--343
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
+
+ []
+
+
+Underfull \hbox (badness 6625) in paragraph at lines 344--345
 \T1/pplx/m/n/10 (+20) Habiendo re-al-izado la clasi-fi-caci�n por
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
-
- []
-
-<images/pic_32.png, id=152, 563.85657pt x 307.90031pt>
-File: images/pic_32.png Graphic file (type png)
- <use images/pic_32.png>
-Package pdftex.def Info: images/pic_32.png used on input line 344.
-(pdftex.def)             Requested size: 169.15826pt x 92.3708pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 344--345
 
  []
 
+<images/pic_32.png, id=157, 563.85657pt x 307.90031pt>
+File: images/pic_32.png Graphic file (type png)
+ <use images/pic_32.png>
+Package pdftex.def Info: images/pic_32.png used on input line 346.
+(pdftex.def)             Requested size: 169.15826pt x 92.3708pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--351
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
 
  []
 
-<images/pic_33.png, id=153, 559.33969pt x 399.74344pt>
-File: images/pic_33.png Graphic file (type png)
- <use images/pic_33.png>
-Package pdftex.def Info: images/pic_33.png used on input line 352.
-(pdftex.def)             Requested size: 167.80319pt x 119.92395pt.
-
+[10 <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proye
+cto Estadística Fase 2/images/pic_29.png> <D:/MATCOM/4to Año/my files/2do sem
+estre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_30.pn
+g> <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyec
+to Estadística Fase 2/images/pic_31.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 352--353
 
  []
 
+<images/pic_33.png, id=165, 559.33969pt x 399.74344pt>
+File: images/pic_33.png Graphic file (type png)
+ <use images/pic_33.png>
+Package pdftex.def Info: images/pic_33.png used on input line 354.
+(pdftex.def)             Requested size: 167.80319pt x 119.92395pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--357
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
 
- []
-
-<images/pic_34.png, id=154, 423.08063pt x 268.00125pt>
-File: images/pic_34.png Graphic file (type png)
- <use images/pic_34.png>
-Package pdftex.def Info: images/pic_34.png used on input line 358.
-(pdftex.def)             Requested size: 211.5398pt x 134.00029pt.
-
-Overfull \hbox (21.53749pt too wide) in paragraph at lines 358--359
-[][] 
  []
 
 
@@ -1405,82 +1418,187 @@ Underfull \hbox (badness 10000) in paragraph at lines 358--359
 
  []
 
+<images/pic_34.png, id=166, 423.08063pt x 268.00125pt>
+File: images/pic_34.png Graphic file (type png)
+ <use images/pic_34.png>
+Package pdftex.def Info: images/pic_34.png used on input line 360.
+(pdftex.def)             Requested size: 211.5398pt x 134.00029pt.
+
+Overfull \hbox (21.53749pt too wide) in paragraph at lines 360--361
+[][] 
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 360--361
 
  []
 
-<images/pic_35.png, id=155, 423.08063pt x 268.00125pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
+
+ []
+
+<images/pic_35.png, id=167, 423.08063pt x 268.00125pt>
 File: images/pic_35.png Graphic file (type png)
  <use images/pic_35.png>
-Package pdftex.def Info: images/pic_35.png used on input line 362.
+Package pdftex.def Info: images/pic_35.png used on input line 364.
 (pdftex.def)             Requested size: 211.5398pt x 134.00029pt.
 
-Overfull \hbox (21.53749pt too wide) in paragraph at lines 362--363
+Overfull \hbox (21.53749pt too wide) in paragraph at lines 364--365
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--363
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 362--363
-
- []
-
-[10 <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proye
-cto Estadística Fase 2/images/pic_31.png> <D:/MATCOM/4to Año/my files/2do sem
-estre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_32.pn
-g> <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyec
-to Estadística Fase 2/images/pic_33.png> <D:/MATCOM/4to Año/my files/2do seme
-stre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_34.png
->] <images/pic_36.png, id=163, 526.96875pt x 451.6875pt>
-File: images/pic_36.png Graphic file (type png)
-
-<use images/pic_36.png>
-Package pdftex.def Info: images/pic_36.png used on input line 367.
-(pdftex.def)             Requested size: 210.78375pt x 180.67178pt.
-
-Overfull \hbox (5.78145pt too wide) in paragraph at lines 367--368
-[] 
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 370.
 [11 <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proye
-cto Estadística Fase 2/images/pic_35.png> <D:/MATCOM/4to Año/my files/2do sem
-estre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_36.pn
+cto Estadística Fase 2/images/pic_32.png> <D:/MATCOM/4to Año/my files/2do sem
+estre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_33.pn
+g> <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyec
+to Estadística Fase 2/images/pic_34.png> <D:/MATCOM/4to Año/my files/2do seme
+stre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_35.png
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
+
+ []
+
+<images/pic_36.png, id=175, 353.06906pt x 158.09062pt>
+File: images/pic_36.png Graphic file (type png)
+ <use images/pic_36.png>
+Package pdftex.def Info: images/pic_36.png used on input line 380.
+(pdftex.def)             Requested size: 176.53409pt x 79.0451pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
+
+ []
+
+<images/pic_37.png, id=176, 526.96875pt x 451.6875pt>
+File: images/pic_37.png Graphic file (type png)
+ <use images/pic_37.png>
+Package pdftex.def Info: images/pic_37.png used on input line 384.
+(pdftex.def)             Requested size: 263.48372pt x 225.84319pt.
+
+Overfull \hbox (73.48141pt too wide) in paragraph at lines 384--385
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
+[]\T1/pplx/m/n/10 (+20) En este gr�-fico, cada una de las
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--389
+
+ []
+
+<images/pic_38.png, id=177, 367.3725pt x 190.46156pt>
+File: images/pic_38.png Graphic file (type png)
+ <use images/pic_38.png>
+Package pdftex.def Info: images/pic_38.png used on input line 390.
+(pdftex.def)             Requested size: 183.68579pt x 95.23053pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
+
+ []
+
+[12 <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proye
+cto Estadística Fase 2/images/pic_36.png> <D:/MATCOM/4to Año/my files/2do sem
+estre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_37.pn
 g>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 370.
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
+[]\T1/pplx/m/n/10 (+20) Podemos no-tar que el valor que
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
+
+ []
+
+<images/pic_39.png, id=183, 423.08063pt x 268.00125pt>
+File: images/pic_39.png Graphic file (type png)
+ <use images/pic_39.png>
+Package pdftex.def Info: images/pic_39.png used on input line 396.
+(pdftex.def)             Requested size: 211.5398pt x 134.00029pt.
+
+Overfull \hbox (21.53749pt too wide) in paragraph at lines 396--397
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--397
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
+[]\T1/pplx/m/n/10 (+20) Ahora bien, nece-si-ta-mos ser m�s
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
+
+ []
+
+<images/pic_40.png, id=184, 87.32625pt x 21.07875pt>
+File: images/pic_40.png Graphic file (type png)
+ <use images/pic_40.png>
+Package pdftex.def Info: images/pic_40.png used on input line 402.
+(pdftex.def)             Requested size: 61.12794pt x 14.755pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 410.
+[13 <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proye
+cto Estadística Fase 2/images/pic_38.png> <D:/MATCOM/4to Año/my files/2do sem
+estre/Estadistica/proyecto fase 2/Proyecto Estadística Fase 2/images/pic_39.pn
+g> <D:/MATCOM/4to Año/my files/2do semestre/Estadistica/proyecto fase 2/Proyec
+to Estadística Fase 2/images/pic_40.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 410.
 
 ("D:\MATCOM\4to Año\my files\2do semestre\Estadistica\proyecto fase 2\Proyecto
  Estadística Fase 2\informe.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 370.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 370.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 410.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 410.
 Package rerunfilecheck Info: File `informe.out' has not changed.
-(rerunfilecheck)             Checksum: 2B56A29D290DAF799EC98B4EEB1D48AC;629.
+(rerunfilecheck)             Checksum: 00056E1E281AA22216CBA5906CD8AA0C;693.
  ) 
 Here is how much of TeX's memory you used:
- 10064 strings out of 494045
- 152451 string characters out of 3145975
- 364088 words of memory out of 3000000
- 12872 multiletter control sequences out of 15000+200000
- 58887 words of font info for 274 fonts, out of 3000000 for 9000
+ 10114 strings out of 494045
+ 153586 string characters out of 3145975
+ 364093 words of memory out of 3000000
+ 12906 multiletter control sequences out of 15000+200000
+ 59399 words of font info for 278 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 36i,12n,43p,1666b,520s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmri.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-urw/palatino/uplri8a.pfb>
-Output written on informe.pdf (11 pages, 528820 bytes).
+ 36i,11n,43p,1666b,540s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{
+C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmri.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/cm-super/sfit1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/pa
+latino/uplri8a.pfb>
+Output written on informe.pdf (13 pages, 584192 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
- 38661 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 234 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
+ 39201 words of extra memory for PDF output out of 42996 (max. 10000000)
 
