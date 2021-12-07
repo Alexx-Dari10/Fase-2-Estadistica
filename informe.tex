@@ -60,7 +60,7 @@
 \begin{center}
 \textbf{Resumen}
 \end{center}
-\noindent \textit{En la segunda fase del proyecto correspondiente a la asignatura de Estad\'istica se hace un estudio sobre los datos usados en la fase 1, en el que aplicaremos t\'ecnicas de regresi\'on lineal, ANOVA, y reducci\'on de dimensi\'on. Para ello se definen las variables pricipales que est\'an contenidas en el set de datos, sobre las que se realizaran las dos primeras t\'ecnicas. Adem\'as, se hace un an\'alisis de los supuestos de cada modelo a fin de investigar la validez de estos y se construyen gr\'aficas en cada t\'ecnica para analizar los resultados obtenidos de forma visual. El objetivo del proyecto es el an\'alisis de los datos usando las t\'ecnicas antes mencionadas. Con ayuda del software R y de R studio, se cre\'o la implementaci\'on que se puede encontrar en \texttt{code/fase\_2.R} de la cual nos auxiliaremos a lo largo de este informe.}\\[0.5cm]
+\noindent \textit{En la segunda fase del proyecto correspondiente a la asignatura de Estad\'istica se hace un estudio sobre los datos usados en la fase 1, en el que aplicaremos t\'ecnicas de regresi\'on lineal, ANOVA y reducci\'on de dimensi\'on. Para ello se definen las variables pricipales que est\'an contenidas en el set de datos, sobre las que se realizaran las dos primeras t\'ecnicas. Adem\'as, se hace un an\'alisis de los supuestos de cada modelo a fin de investigar la validez de estos y se construyen gr\'aficas en cada t\'ecnica para analizar los resultados obtenidos de forma visual. El objetivo del proyecto es el an\'alisis de los datos usando las t\'ecnicas antes mencionadas. Con ayuda del software R y de R studio, se cre\'o la implementaci\'on que se puede encontrar en \texttt{code/fase\_2.R} de la cual nos auxiliaremos a lo largo de este informe.}\\[0.5cm]
 
 \begin{multicols}{2}
 
@@ -215,7 +215,9 @@ Luego necesitamos comparar las medias de los $14$ niveles del factor y las media
 
 Podemos observar que las medias de la resistencia residual de los coeficientes prism\'aticos son bastante cercanas, oscilando entre $2$ y $3$ aproximadamente, por lo que es posible que el coeficiente prism\'atico no tenga efecto sobre la resistencia residual de los veleros. 
 
-Por otro lado, el gr\'afico de la resistencia residual y el n\'umero de Froude muestra mucha diferencia en las medias, podemos apreciar que empieza en valores muy cercanos a $0$ y, a medida que el n\'umero de Froude aumenta, obtenemos valores de resistencia residual promedio hasta de $50$. Por lo tanto, es muy probable que el n\'umero de Froude tenga efecto sobre la resistencia residual de los veleros.\\
+Por otro lado, el gr\'afico de la resistencia residual y el n\'umero de Froude muestra mucha diferencia en las medias, podemos apreciar que empieza en valores muy cercanos a $0$ y, a medida que el n\'umero de Froude aumenta, obtenemos valores de resistencia residual promedio hasta de $50$. Por lo tanto, es muy probable que el n\'umero de Froude tenga efecto sobre la resistencia residual de los veleros.
+
+Si realizamos un an\'alisis de ANOVA, obetenemos:\\
 
 \includegraphics[scale = 0.4]{images/pic_14.png} \\
 
@@ -251,7 +253,7 @@ Por \'ultimo, para probar el supuesto $3$ de la Homocedasticidad podemos grafica
 
 \includegraphics[scale = 0.4]{images/pic_19.png} \\
 
-Los puntos no forman una franja, parece ser no que tienen varianza constante. Utilicemos la prueba de Bartlett para confirmarlo.\\
+Los puntos no forman una franja, parece ser que no tienen varianza constante. Utilicemos la prueba de Bartlett para confirmarlo.\\
 
 \includegraphics[scale = 0.5]{images/pic_20.png} \\
 
@@ -269,7 +271,7 @@ Realizaremos en esta secci\'on varias t\'ecnicas de reducci\'on de dimensi\'on a
 \subsection{An\'alisis de componentes principales}
 El objetivo del ACP es reducir dimensi\'on agrupando variables en componentes principales incorrelacionadas entre s\'i. En el caso de nuestro set de datos, como ya vimos en la secci\'on II, tenemos 7 variables.
 
-Lo primero que debemos estudiar es la correlaci\'on de nuestra muestra. Para ello primero graficamos los datos para ver si existe alg\'un tipo de correlaci\'on entre ellos.\\
+Lo primero que debemos estudiar es la correlaci\'on de nuestra muestra. Para ello graficamos los datos para ver si existe alg\'un tipo de correlaci\'on entre ellos.\\
 
 \includegraphics[scale = 0.4]{images/pic_21.png} \\
 
@@ -289,7 +291,7 @@ Podemos, adem\'as, ver las componentes de forma visual para ratificar nuestra de
 
 \includegraphics[scale = 0.4]{images/pic_24.png} \\
 
-Se puede observar que a partir de la cuarta componente hay una ca\'ida m\'as pronunciada y que con las tres primeras se explica una buena parte, ser\'ia un $71\%$, que si bien no es lo ideal, no est\'a mal.
+Se puede observar que a partir de la cuarta componente hay una ca\'ida m\'as pronunciada. Con las tres primeras se explica una buena parte, ser\'ia un $71\%$, que si bien no es lo ideal, no est\'a mal.
 
 Ahora analizamos la matriz de valores propios y as\'i sabremos qu\'e variable es importante para cada componente y en qu\'e medida.\\
 
@@ -316,7 +318,7 @@ A partir de esta subsecci\'on nos centraremos en aplicar t\'ecnicas para reducir
 El primer paso, independientemente del procedimiento a seguir, ser\'a estandarizar los datos para evitar errores en la clasificaci\'on por cuestiones de variabilidad en las unidades de medidas. Para esto tipificaremos cada una de las 7 variables. Obteniendo
 $Z_i = \frac{X_i - \mu_i}{\sigma_i}$.
 
-Para estandarizar usamos la funci\'on de R \textbf{scale}, y como se observa a continuaci\'on los datos estandarizados tienen el mismo comportamiento que los que no fueron estandarizados, la diferencia est\'a en la escala de las mediciones que es similar.\\
+Para estandarizar usamos la funci\'on de R \textbf{scale} y, como se observa a continuaci\'on, los datos estandarizados tienen el mismo comportamiento que los que no fueron estandarizados, la diferencia est\'a en la escala de las mediciones que es similar.\\
 
 \includegraphics[scale = 0.4]{images/pic_27.png} \\
 \includegraphics[scale = 0.4]{images/pic_28.png} \\
@@ -331,7 +333,7 @@ A partir de este gr\'afico podemos determinar la cantidad de cl\'usters haciendo
 
 Por desgracia los cl\'usters son demasiado grandes y no quedan legibles los barcos que forman parte de cada uno. No obstante, podemos hacernos una idea de ese peque\~no grupo de yates que se comporta de manera distinta. Si analizamos los datos, nos percatamos de que existen algunos veleros que tienen una resistencia residual bastante alta y una posici\'on longitudinal muy baja, motivo por el cual se comportan de forma distinta a la mayor\'ia de los yates. Estos barcos podr\'ian formar parte del primer cl\'uster.
 
-Todas las t\'ecnicas de cl\'uster jer\'arquico no dan los mismos resultados, veamos que sucede si en vez de utilizar un ajuste completo ajustamos por las medias. En este caso los ajustes son las medidas de asociaci\'on entre las variables.\\
+Todas las t\'ecnicas de cl\'uster jer\'arquico no dan los mismos resultados, veamos qu\'e sucede si, en vez de utilizar un ajuste completo, ajustamos por las medias. En este caso los ajustes son las medidas de asociaci\'on entre las variables.\\
 
 \includegraphics[scale=0.5]{images/pic_31.png} \\
 
@@ -343,7 +345,7 @@ Podemos notar que, a diferencia del ajuste completo, si hacemos un corte muy ele
 \subsection{K-means}
 Habiendo realizado la clasificaci\'on por el m\'etodo jer\'arquico, utilicemos ahora el algoritmo k-means. El problema m\'as grande al aplicar este algoritmo es que necesitamos tener una idea de cu\'antos cl\'usters tendremos, en este caso partiremos del n\'umero de cl\'usters encontrados en el algoritmo anterior. Es decir, comenzaremos con $4$ cl\'usters.\\
 
-\includegraphics[scale=0.3]{images/pic_32.png} \\
+\includegraphics[scale=0.35]{images/pic_32.png} \\
 
 Al aplicar la funci\'on k-means y comprobar su resultado obtenemos un vector de cl\'usters que nos dice en qu\'e cl\'uster est\'a cada barco y cu\'antos elementos hay. En este caso tenemos $4$ cl\'usters con $26$, $158$, $65$ y $69$ barcos respectivamente. Notemos que sigue habiendo un cl\'uster con un peque\~no grupo de barcos que se comportan de forma distinta.
 
@@ -351,7 +353,7 @@ Tambi\'en tenemos las medias de los elementos de cada variable por cada cl\'uste
 
 Repetimos el algoritmo esta vez con $8$ cl\'usters.\\
 
-\includegraphics[scale=0.3]{images/pic_33.png} \\
+\includegraphics[scale=0.35]{images/pic_33.png} \\
 
 Esta vez obtuvimos un porcentaje del $60\%$ que no est\'a mal. Y tampoco es exagerada la cantidad de cl\'usters, teniendo en cuenta que estamos trabajando una muestra de cardinalidad igual a $308$.
 
@@ -371,21 +373,21 @@ En esta secci\'on construiremos un \'arbol de clasificaci\'on para nuestros dato
 
 Hay distintas maneras de obtener estos \'arboles, la que usaremos en esta ocasi\'on es conocida como CART: Classification And Regression Trees. Esta es una t\'ecnica de aprendizaje supervisado. Tenemos una variable objetivo (dependiente) y nuestra meta es obtener una funci\'on que nos permita predecir, a partir de variables predictoras (independientes), el valor de la variable objetivo para casos desconocidos.
 
-En este caso la idea es ser capaz de predecir la resistencia residual de un yate velero basado en el resto de las variables que se brindan. La implementaci\'on particular de CART que usaremos es conocida como Recursive Partitioning and Regression Trees o RPART. De ah\'i el nombre del paquete que utilizaremos. De manera general, lo que hace este algoritmo es encontrar la variable independiente que mejor separa nuestros datos en grupos, que corresponden con las categor\'ias de la variable objetivo. Esta mejor separaci\'on es expresada con una regla. A cada regla corresponde un nodo.
+En este caso la idea es ser capaz de predecir la resistencia residual de un yate velero basado en el resto de las variables que se brindan. Como nuestros datos son continuos nuestro \'arbol de clasificaci\'on se convierte en un \'arbol de regresi\'on. La implementaci\'on particular de CART que usaremos es conocida como Recursive Partitioning and Regression Trees o RPART. De ah\'i el nombre del paquete que utilizaremos. De manera general, lo que hace este algoritmo es encontrar la variable independiente que mejor separa nuestros datos en grupos, que corresponden con las categor\'ias de la variable objetivo. Esta mejor separaci\'on es expresada con una regla. A cada regla corresponde un nodo.
 
-Lo primero es escoger los conjuntos de entrenamiento y de prueba que ser\'an conjuntos disjuntos, en este caso se toman dos tercios de la poblaci\'on para el conjunto de entrenamiento y el tercio restante servir\'a para probar el \'arbol y calcular el error de clasificaci\'on.
+Lo primero es escoger los conjuntos de entrenamiento y de prueba, que ser\'an conjuntos disjuntos, en este caso se toman dos tercios de la poblaci\'on para el conjunto de entrenamiento y el tercio restante servir\'a para probar el \'arbol y calcular el error de clasificaci\'on.
 
 Usamos la funci\'on de R \textbf{rpart} de la librer\'ia \textit{rpart} para entrenar nuestro modelo y obtenemos el siguiente resultado.\\
 
 \includegraphics[scale=0.5]{images/pic_36.png} \\
 
-Lo anterior muestra el esquema de nuestro \'arbol de clasificaci\'on. Cada inciso nos indica un nodo y la regla de clasificaci\'on que le corresponde. Siguiendo estos nodos, podemos llegar a las hojas del \'arbol, que corresponde a la clasificaci\'on de nuestros datos. Todo lo anterior resulta mucho m\'as claro si lo visualizamos, as\'i que creamos la siguiente gr\'afica usando nuestro modelo.\\
+Lo anterior muestra el esquema de nuestro \'arbol. Cada inciso nos indica un nodo y la regla de clasificaci\'on que le corresponde. Siguiendo estos nodos, podemos llegar a las hojas del \'arbol, que corresponde a la clasificaci\'on de nuestros datos. Todo lo anterior resulta mucho m\'as claro si lo visualizamos, as\'i que creamos la siguiente gr\'afica usando nuestro modelo.\\
 
 \includegraphics[scale=0.5]{images/pic_37.png}\\
 
 En este gr\'afico, cada una de las intersecciones representa un nodo de nuestro \'arbol, con su regla de clasificaci\'on. Tengamos en cuenta que si bajamos por su rama izquierda estamos asumiendo que la regla se cumple. De esta forma si tenemos un velero con un n\'umero de Froude menor que $0.34$ nuestro \'arbol predice que la resistencia residual de este ser\'a de $1.9$. Si el n\'umero de Froude es menor que $0.38$ y mayor que $0.34$ ($0.34 \leq FroudeNumber < 0.39$) la resistencia residual del barco ser\'a de $10.47$. Por otro lado, si el n\'umero de Froude es menor que $0.41$ tendr\'iamos una resistencia residual de $22.19$. Si $0.41 \leq FroudeNumber < 0.44$ entonces la resistencia residual ser\'ia igual a $34.37$. Por \'ultimo, si $FroudeNumber \geq 0.44$ implica que la resistencia residual del velero tendr\'ia un valor de $52.8$.
 
-Posteriormente podaremos el \'arbol de regresi\'on para encontrar el valor \'optimo a utilizar para \textit{cp}, el par\'ametro de complejidad que le pasamos a la funci\'on \textbf{rpart}, que conduce al error de prueba m\'as bajo. Debemos tener en cuenta que el valor \'optimo de \textit{cp} es el que conduce al \textit{xerror} m\'as bajo en la imagen siguiente, que representa el error en las observaciones de los datos de validaci\'on cruzada.\\
+Posteriormente podaremos el \'arbol de regresi\'on y, para ello, debemos encontrar el valor \'optimo a utilizar para \textit{cp}, el par\'ametro de complejidad que le pasamos a la funci\'on \textbf{rpart}, que conduce al error de prueba m\'as bajo. Debemos tener en cuenta que el valor \'optimo de \textit{cp} es el que conduce al \textit{xerror} m\'as bajo en la imagen siguiente, que representa el error en las observaciones de los datos de validaci\'on cruzada.\\
 
 \includegraphics[scale=0.5]{images/pic_38.png}\\
 
@@ -395,15 +397,17 @@ Otra forma de ver el \textit{cp} \'optimo es graficar el conjunto de posibles po
 
 \includegraphics[scale=0.5]{images/pic_39.png}\\
 
-Una buena opci\'on \textit{cp} para podar es a menudo el valor m\'as a la izquierda para el que la media se encuentra por debajo de la l\'inea horizontal. Se puede observar que esto ocurre alrededor del mismo valor de \textit{cp} utilizado.
+Una buena opci\'on \textit{cp} para podar es, a menudo, el valor m\'as a la izquierda para el que la media se encuentra por debajo de la l\'inea horizontal. Se puede observar que esto ocurre alrededor del mismo valor de \textit{cp} utilizado.
 
-Ahora bien, necesitamos ser m\'as sistem\'aticos para indagar qu\'e tan bien hace predicciones nuestro modelo. Para ello generamos un vector de predicciones utilizando nuestro conjunto de prueba que contendr\'a los valores predichos por el modelo que hemos entrenado. Posteriormente cruzamos la predicci\'on con los datos reales de nuestro conjunto de prueba para generar una matriz de confusi\'on a partir de la cual se calcular\'a el error.\\
+Ahora bien, necesitamos ser m\'as sistem\'aticos para indagar qu\'e tan bien hace predicciones nuestro modelo. Para ello generamos un vector de predicciones, utilizando nuestro conjunto de prueba, que contendr\'a los valores predichos por el modelo que hemos entrenado. Posteriormente cruzamos la predicci\'on con los datos reales de nuestro conjunto de prueba para generar una matriz de confusi\'on a partir de la cual se calcular\'a el error.\\
 
 \includegraphics[scale=0.7]{images/pic_40.png}\\
 
-Este valor de error es bastante elevado, lo que quiere decir que nuestro \'arbol no es efectivo.
+Este valor de error es bastante elevado, lo que quiere decir que nuestro \'arbol no es efectivo. Este resultado es consistente con el an\'alisis de regresi\'on que hicimos en la secci\'on III, donde no obtuvimos ning\'un modelo de regresi\'on v\'alido.\\\\
 
-\subsection{Conclusiones}
+
+
+\section{Conclusiones}
 A lo largo de este informe se analizaron conjuntos de datos, pudiendo caracterizar su comportamiento gracias a las t\'ecnicas de regresi\'on lineal, ANOVA y reducci\'on de dimensi\'on.
 
 \end{multicols}{2}
