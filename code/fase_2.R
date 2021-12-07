@@ -271,18 +271,17 @@ tree
 plot(tree)
 text(tree, use.n = TRUE, all = TRUE, pretty = 0, xpd = TRUE)
 
-plotcp(tree)
 printcp(tree)
+plotcp(tree)
 
 # haciendo la prediccion con el conjunto de prueba
 # teniendo en cuenta el arbol obtenido
 pred <- predict(tree, newdata = data[-sub,], type = "vector")
 pred
 
-# matriz de confucion
+# matriz de confusion
 tb <- table(pred, data[-sub,]$ResiduaryResistance)
 
 # calculo del error
 error <- 1 - (sum(diag(tb))/sum(tb))
-tb
 error
